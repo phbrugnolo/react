@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Soma from './Soma'
 
 function App() {
   return (
-    <div className="App">
-      <h1><code>Testing code tag</code></h1>
+    <div className="App" id="App">
+      <Soma></Soma>
     </div>
   );
 }
